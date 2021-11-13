@@ -1,4 +1,4 @@
-# Welcome Messgae 
+# Welcome Message  
 
 Welcome_message= "Welcome to vacation planner!"
 

@@ -8,7 +8,8 @@
     - [x] You are free to use any two countries of your choice
 - [x] Copy your finished code and add it to a new GitHub repository
 
-- []- [x]Open your VacationBudgetPlanner that you began last week
+## Week two Requirements
+- []Open your VacationBudgetPlanner that you began last week
 - []Refactor: After the line that asks for the user’s name, refactor the variable you created for the user’s name and allow the user to input their name into that variable
 - []Now, the welcome message that greets the user by name and asks them where they would like to travel should use the name that the user input.
 - []For now, we are going to build out the application for Jamaica. So the user should type in Jamaica and move to the next line

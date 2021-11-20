@@ -9,12 +9,19 @@ user_name = input("Please enter your name: ")
 
 
 # Prompting users to choice a destination 
-answer = input("Do you want to Travel: A) Jamica. B)Mexico. [A/B]?: ")
+answer = input("Do you want to Travel: Jamica) Jamica. Mexico)Mexico.?: ")
 
 
-if answer == "A":
+# Prompting users to choice a destination 
+vaca_days = (int(input(f"How many days they will spend on the trip "))
+# Prompting users to choice a destination 
+
+
+
+if answer == "Jamica":
     print(f"{Welcome_message}{user_name}Thanks for choicing Mexico.")
-elif answer == "B":
+elif answer == "Mexico":
     print(f"{Welcome_message}{user_name}Thanks for choicing Jamica")
 elif answer == "Q":
     exit
+

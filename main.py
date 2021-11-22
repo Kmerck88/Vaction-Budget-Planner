@@ -16,6 +16,8 @@ answer = input("Do you want to Travel: Jamica) Please type Jamica : ")
 vaca_days = (int(input(f"How many days they will spend on the trip ")))
 # Prompting users for spendong money 
 spending_money = int(input("how much “spending money” would like to bring?  "))
+
+#The Math to determive usera spending money per day 
 vaca_math = spending_money / vaca_days
 
 

@@ -17,13 +17,14 @@ vaca_days = (int(input(f"How many days they will spend on the trip ")))
 # Prompting users for spendong money 
 spending_money = int(input("how much “spending money” would like to bring?  "))
 
-#The Math to determive usera spending money per day 
-vaca_math = spending_money / vaca_days
+
+#implemeted currency formatting  for the math solution 
+currency = "${:,.2f}".format(spending_money)
 
 
 
 if answer == "Jamica":
-    print(f"{Welcome_message}{user_name}Thanks for choicing Jamica You are planning on spending {vaca_days} in {answer} and plan to bring ${spending_money}. You can spend ${vaca_math}0 per day  ")
+    print(f"{Welcome_message}{user_name}Thanks for choicing Jamica You are planning on spending {vaca_days} in {answer} and plan to bring {spending_money}. You can spend ${currency} per day  ")
 # elif answer == "Mexico":
 #     print(f"{Welcome_message}{user_name}Thanks for choicing Jamica")
 elif answer == "Q":

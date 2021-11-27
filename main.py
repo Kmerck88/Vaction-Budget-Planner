@@ -24,9 +24,6 @@ vaca_math = spending_money / vaca_days
 currency = "${:,.2f}".format(vaca_math)
 
 
-# Welcome to vacation planner! Kevin Merck Thanks for choosing Mexico. You are planning on spending five days in Jamaica and plan to bring 100. You can spend 20.0 per day  
-
-
 
 if answer == "Mexico":
     print(f"{Welcome_message}{user_name}Thanks for choosing Mexico.You are planning on spending {vaca_days} days in {answer} and plan to bring ${spending_money}. You can spend {currency} per day  ")

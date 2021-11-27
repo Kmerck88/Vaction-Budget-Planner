@@ -7,25 +7,30 @@ print(Welcome_message)
 # Prompting users for their names
 user_name = input("Please enter your name: ")
 
+# Prompting users to choice a destination 
+answer = input("Please choice a place to travel (1)Mexico (2)Jamaica: ")
 
 # Prompting users to choice a destination 
-answer = input("Do you want to Travel: Jamica) Please type Jamica : ")
-
-
-# Prompting users to choice a destination 
-vaca_days = (int(input(f"How many days they will spend on the trip ")))
+vaca_days = int(input(f"How many days they will spend on the trip "))
 # Prompting users for spendong money 
-spending_money = int(input("how much “spending money” would like to bring?  "))
+spending_money = int(input("How much spending money would like to bring?  "))
+
+vaca_math = spending_money / vaca_days
+
+#implemeted currency formatting for the currency solution 
+#match 
 
 
-#implemeted currency formatting  for the math solution 
-currency = "${:,.2f}".format(spending_money)
+currency = "${:,.2f}".format(vaca_math)
+
+
+# Welcome to vacation planner! Kevin Merck Thanks for choosing Mexico. You are planning on spending five days in Jamaica and plan to bring 100. You can spend 20.0 per day  
 
 
 
-if answer == "Jamica":
-    print(f"{Welcome_message}{user_name}Thanks for choicing Jamica You are planning on spending {vaca_days} in {answer} and plan to bring {spending_money}. You can spend ${currency} per day  ")
-# elif answer == "Mexico":
-#     print(f"{Welcome_message}{user_name}Thanks for choicing Jamica")
+if answer == "Mexico":
+    print(f"{Welcome_message}{user_name}Thanks for choosing Mexico.You are planning on spending {vaca_days} days in {answer} and plan to bring ${spending_money}. You can spend {currency} per day  ")
+elif answer == "Jamaica":
+    print(f"{Welcome_message}{user_name}Thanks for choosing Jamaica! You are planning on spending {vaca_days} days in {answer} and plan to bring ${spending_money}. You can spend {currency} per day  ")
 elif answer == "Q":
     exit 

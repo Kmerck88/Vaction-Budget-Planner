@@ -32,34 +32,34 @@
 
 
 # Section 2: The Options
--[x] We will use a switch statement to build out the two different flows in this application. In Case 1 the user will have calculations based on the Peso. In Case 2 the user will have calculations based on the Jamaican Dollar
--[x] Create a Switch statement that switches on the users choice of Mexico or Jamaica
--[x] Create two skeletons for two Cases with a break 
--[x] Create a default statement in case a user does not choose Mexico or Jamaica that lets the user know they must choose either Mexico or Jamaica
+- [x] We will use a switch statement to build out the two different flows in this application. In Case 1 the user will have calculations based on the Peso. In Case 2 the user will have calculations based on the Jamaican Dollar
+- [x] Create a Switch statement that switches on the users choice of Mexico or Jamaica
+- [x] Create two skeletons for two Cases with a break 
+- [x] Create a default statement in case a user does not choose Mexico or Jamaica that lets the user know they must choose either Mexico or Jamaica
 
 
 
 # Section 3: The Mexico Flow
 
--[x] In this section, we will work to build out the flow if a user chooses to visit the country of Mexico
--[x] Print a line to the Console that reads “Great, Mexico sounds like an amazing trip!”
--[x] Print a line that will just be used for formatting purposes that looks like 
--[x] Ask the user how many days do they plan spending in Mexico
--[x] Store the user’s input into the appropriate variable
--[x] Ask the user how much money in USD do they plan to spend on the trip
--[x] Store the user’s input into the appropriate variable
--[x] Calculate the number of total hours the user will have on their trip and store it in a variable
--[x] Calculate the number of total minutes the user will have on their trip and store it in a variable
--[x] Concatenate a string that breaks down the duration of their trip in hours and in minutes
--[x] Calculate the amount of money the user has to spend per day based on their trip duration and the money they said they were planning to spend and store it in a variable
--[x] Calculate the conversion of dollars into peso (may have to do research) and store it in a variable
--[x] Calculate the number of pesos they will have available to spend each day and store it in a variable
--[x] Research how to get the message that prints to the Console to only show up to two decimal places.
--[x] Print a message to the user that informs them of the amount they plan to spend in USD and how much that will be divided into the number of days they plan to spend on the trip
--[x] Use your research to display only two decimal points
--[x] Print a similar message that breaks this down, converted into pesos
--[x] Use the df2.format() method to display only two decimal points
--[x] Finally, print a message that tells the user to enjoy their trip 
+- [x] In this section, we will work to build out the flow if a user chooses to visit the country of Mexico
+- [x] Print a line to the Console that reads “Great, Mexico sounds like an amazing trip!”
+- [x] Print a line that will just be used for formatting purposes that looks like 
+- [x] Ask the user how many days do they plan spending in Mexico
+- [x] Store the user’s input into the appropriate variable
+- [x] Ask the user how much money in USD do they plan to spend on the trip
+- [x] Store the user’s input into the appropriate variable
+- [x] Calculate the number of total hours the user will have on their trip and store it in a variable
+- [x] Calculate the number of total minutes the user will have on their trip and store it in a variable
+- [x] Concatenate a string that breaks down the duration of their trip in hours and in minutes
+- [x] Calculate the amount of money the user has to spend per day based on their trip duration and the money they said they were planning to spend and store it in a variable
+- [x] Calculate the conversion of dollars into peso (may have to do research) and store it in a variable
+- [x] Calculate the number of pesos they will have available to spend each day and store it in a variable
+- [x] Research how to get the message that prints to the Console to only show up to two decimal places.
+- [x] Print a message to the user that informs them of the amount they plan to spend in USD and how much that will be divided into the number of days they plan to spend on the trip
+- [x] Use your research to display only two decimal points
+- [x] Print a similar message that breaks this down, converted into pesos
+- [x] Use the df2.format() method to display only two decimal points
+- [x] Finally, print a message that tells the user to enjoy their trip 
 
 
 ## Code Exercise 4: The Jamaican Flow 

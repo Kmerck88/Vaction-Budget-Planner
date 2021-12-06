@@ -19,16 +19,16 @@ destination_days = int(input("How many are days planning on staying? "))
 
 #     print("You are successfully logged in!! ")
 
-
-if user_input == "Mexico" or user_input  == "2":
-
-    total_hours = destination_days * 24
-
-    total_cost = USD * destination_days
+total_hours = destination_days * 24
+total_cost = USD * destination_days
     
-    cost_mxn = total_cost / 19.2
+cost_mxn = total_cost / 19.2
     
-    cost_usd = cost_mxn * 19.2
+cost_usd = cost_mxn * 19.2
+total_minutes = destination_days * 24 * 60
+
+if user_input == "Mexico" or user_input  == "1":
+
     
     total_minutes = destination_days * 24 * 60
     print("Great, Mexico sounds like an amazing trip!")
@@ -41,19 +41,13 @@ if user_input == "Mexico" or user_input  == "2":
     # Print a line that will just be used for formatting purposes that looks like “**********”.
     print('**********')
     print('It is a great country and you will have a lot of fun!')
-    print("Thanks for using the Vacation Budget App. Enjoy your vacation! ")
 
 if user_input  == "Jamaica" or user_input  == "2":
-    
-    total_hours = destination_days * 24
-    
-    total_minutes = destination_days * 24 * 60
-    
-    total_cost = USD * destination_days
     
     cost_jdm = total_cost / 0.0064
     
     cost_usd = cost_jdm * 0.0064
+    
     print('Great, Jamaica sounds like an amazing trip!')
     print(f"You will have {total_hours} hours, {total_minutes} minutes on your trip. ")
 
